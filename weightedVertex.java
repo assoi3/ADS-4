@@ -1,5 +1,3 @@
-// A weighted vertex of an adjacency list representation of a graph
-import java.util.*;
 public class weightedVertex<W, V> extends Vertex<V> {
     private W weight;
 

@@ -72,4 +72,11 @@ public class AdjacencyList<V> implements Graph<V> {
 
     public void printWeightedGraph() {
     }
+
+    public Map<String, Double> dijkstra(Vertex vertex) {
+        return null;
+    }
+
+    public void bfs(Vertex vertex) {
+    }
 }
