@@ -1,8 +1,9 @@
+package Algos;
+
 import java.util.*;
-import AdjacentList;
 
 
-public class Algos{
+public class Dijkstra{
     public Map<V, Double> dijkstra(Vertex<V> source) {
         Map<V, Double> distances = new HashMap<>();
         PriorityQueue<Vertex<V>> pq = new PriorityQueue<>((v1, v2) -> Double.compare(v1.distFromSource, v2.distFromSource));

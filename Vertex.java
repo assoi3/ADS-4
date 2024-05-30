@@ -85,4 +85,8 @@ public class Vertex<V> implements Comparable<Vertex<V>>{
         }
         return cmp;
     }
+
+    public String getLabel() {
+        return null;
+    }
 }

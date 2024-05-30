@@ -66,4 +66,10 @@ public class AdjacencyList<V> implements Graph<V> {
         }
         return (s.toString());
     }
+
+    public void connectVertices(String string, String string2, double d) {
+    }
+
+    public void printWeightedGraph() {
+    }
 }

@@ -1,7 +1,8 @@
-import java.util.*;
-import AdjacencyList;
+package Algos;
 
-public class Algos {
+import java.util.*;
+
+public class Algos<V> {
 
    // private static int time;
 
@@ -15,6 +16,7 @@ public class Algos {
         while (!frontier.isEmpty()) {
             Vertex<V> u = frontier.poll();
             System.out.println("Visited vertex: " + u.label);
+            LinkedList<Vertex<V>> adj;
             for (Vertex<V> e : adj.get(u).keySet()) {
             //    Vertex<V> v = e.getV();
                 if (!discovered.contains(neighbor.label)) {
